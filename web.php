@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('login');
-});
 
 Route::match(['get','post'],'/login','LoginController@login');
 Route::match(['get','post'],'/register','LoginController@register');
