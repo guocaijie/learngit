@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+git add 1111;
 
 Route::match(['get','post'],'/login','LoginController@login');
 Route::match(['get','post'],'/register','LoginController@register');
